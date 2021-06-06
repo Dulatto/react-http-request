@@ -60,15 +60,8 @@ class Blog extends Component {
                 </header>
                 <section className="Posts">
                     {posts}
-                    <Post />
-                    <Post />
                 </section>
-                <section>
-                    <FullPost id={this.state.selectedPostId} />
-                </section>
-                <section>
-                    <NewPost />
-                </section>
+
             </div>
         );
     }
