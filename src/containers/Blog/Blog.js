@@ -9,7 +9,7 @@ import Posts from './Posts/Posts';
 
 class Blog extends Component {
     state = {
-        auth: false
+        auth: true
     }
 
     render() {
@@ -47,7 +47,5 @@ class Blog extends Component {
         );
     }
 }
-
-
 
 export default Blog;
